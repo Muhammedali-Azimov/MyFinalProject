@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace Business.Constants
@@ -13,5 +14,6 @@ namespace Business.Constants
         public static string CategoryLimitError = "Bu kategoruyada 10 dan cox mehsul ola bilmez";
         public static string ProductNameExist = "Bu adda mehsul movcuddur";
         public static string CategoryLimitPassed = "Kateqoriya Limiti Asildi";
+        public static string AuthorizationDenied = "Icaze Yoxdur";
     }
 }
